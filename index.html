@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Home Bootstrap</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #343a40;
+        }
+
+        .container {
+            background-color: #ffffff;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Abdullah Panigoran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Lainnya
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Kontak</a></li>
+                            <li><a class="dropdown-item" href="#">Galeri</a></li>
+                            <li><a class="dropdown-item" href="#">Sosmed</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari">
+                    <button class="btn btn-outline-light" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="text-center"><b> WELCOME TO MY TEMPLATE BOOTSTRAP!</b></h1>
+      
+          <div class="row mt-5">
+              <div class="col-md-2">
+                  <img src="people.png" class="img-fluid" alt="Profile Image">
+              </div>
+              <div class="col-md-3">
+                  <b>
+                      <p>Abdullah Panigoran</p>
+                      <p>Tanggal Lahir: Juni 2001</p>
+                      <p>Alamat: jl.ongku kuantan, Pebaun Hulu</p>
+                      <p>Kontak: <a href="mailto:siregarpanigoran82@gmail.com">siregarpanigoran82@gmail.com</a> | +62821 7596 3***</p>
+                  </b>
+              </div>
+              <div class="col-md-7">
+                  <h3 id="about"><b>Tentang Saya</b></h3>
+                  <p>
+                      Halo, saya Abdullah Panigoran, seorang mahasiswa yang penuh semangat di bidang Teknik Informatika di Universitas Lancang Kuning (UNILAK). Dalam perjalanan akademis saya, saya telah memperoleh pengetahuan yang kuat dalam berbagai aspek ilmu komputer, dan saya senang berbagi pengalaman serta keterampilan yang saya pelajari.
+                  </p>
+                  <h3 id="about"><b>Pendidikan</b></h3>
+                  <p>
+                      Saat ini, saya sedang menyelesaikan gelar sarjana Teknik Informatika di UNILAK. Selama studi, saya terlibat dalam berbagai mata kuliah yang meliputi pemrograman, jaringan komputer, pengembangan perangkat lunak, dan keamanan informasi.
+                  </p>
+              </div>
+          </div>
+        
+          <div class="row mt-5">
+              <div class="col-md-5">
+                  <h2><b>Keterampilan</b></h2>
+                  <h3>Keterampilan Teknis</h3>
+                  <ul>
+                      <li>Pemrograman Web: HTML, CSS, JavaScript</li>
+                      <li>Framework Front-End: ReactJS</li>
+                      <li>Desain Responsif: Bootstrap</li>
+                      <li>Animasi dan Efek Visual: CSS Animations, React Spring</li>
+                      <li>Pengembangan Antarmuka Pengguna (UI/UX): Menerapkan prinsip-prinsip desain antarmuka pengguna yang baik.</li>
+                      <li>Pengoptimalan Kinerja Web: Memahami teknik-teknik untuk meningkatkan kecepatan dan kinerja aplikasi web.</li>
+                  </ul>
+          
+                  <h3>Keterampilan Pengembangan Perangkat Lunak</h3>
+                  <ul>
+                      <li>Pengembangan Front-End: Membangun dan merancang komponen-komponen front-end untuk aplikasi web.</li>
+                      <li>Kerjasama Tim: Berkolaborasi dengan tim pengembang back-end untuk mengintegrasikan fungsionalitas dan memastikan keterpaduan antara front-end dan back-end.</li>
+                  </ul>
+          
+                  <h3>Keterampilan Desain</h3>
+                  <ul>
+                      <li>Desain Antarmuka Pengguna (UI): Merancang tata letak yang intuitif dan menarik.</li>
+                      <li>Desain Responsif: Memastikan pengalaman pengguna yang baik di berbagai perangkat.</li>
+                  </ul>
+              </div>
+        
+              <div class="col-md-5">
+                  <h2><b>Pengalaman Kerja</b></h2>
+                  <p>Saya memiliki kesempatan untuk menjalani magang selama 4 bulan di STIKOM Panyabungan, di mana saya mendalami berbagai aspek teknologi informasi, terutama dalam penanganan perangkat keras dan jaringan. Selama periode ini, saya mendapat nilai yang memuaskan untuk keterampilan instalasi PC/laptop, instalasi sistem operasi, dan pembangunan jaringan LAN.</p>
+          
+                  <h3>Proyek dan Tanggung Jawab</h3>
+                  <p>Selama magang, saya terlibat dalam proyek meningkatkan infrastruktur teknologi informasi di Sekolah. Pekerjaan ini mencakup peningkatan perangkat keras, instalasi perangkat lunak, dan optimalisasi jaringan LAN untuk meningkatkan efisiensi.</p>
+              </div>
+        
+              <div class="col-md-2">
+                  <h2><b>Kontak</b></h2>
+                  <p>Alamat Email: <a href="mailto:siregarpanigoran82@email.com">siregarpanigoran82@email.com</a></p>
+                  <p>GitHub: <a href="https://github.com/panigoransiregar">https://github.com/panigoransiregar</a></p>
+                  <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100041064653726">Abdullah Panigoran </a></p>
+                  <p>Instagram: <a href="https://www.instagram.com/panigoran__/">panigoran__</a></p>
+              </div>
+          </div>
+
+<div class="row mt-5">
+  <div class="col-md-12">
+
+    <h2><b>Tugas dan Pencapaian Utama</b></h2>
+      <div class="table-responsive">
+          <table class="table table-bordered">
+              <thead>
+                  <tr>
+                      <th scope="col">Proyek</th>
+                      <th scope="col">Deskripsi</th>
+                      <th scope="col">Tahun</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Instalasi PC/Laptop</td>
+                      <td>Bertanggung jawab atas instalasi perangkat keras komputer dan laptop. Melibatkan penanganan permasalahan perangkat keras, pemeliharaan, dan upgrade sesuai kebutuhan.</td>
+                      <td>2020</td>
+                  </tr>
+                  <tr>
+                      <td>Instalasi Sistem Operasi</td>
+                      <td>Terlibat dalam instalasi sistem operasi, termasuk konfigurasi dan pemecahan masalah. Menangani berbagai versi sistem operasi seperti Windows </td>
+                      <td>2020</td>
+                  </tr>
+                  <tr>
+                    <td>Membangun Jaringan LAN</td>
+                    <td>Memimpin pembangunan jaringan lokal (LAN) dengan keberhasilan mencapai nilai tinggi. Merancang, mengimplementasikan, dan memelihara jaringan untuk mendukung kebutuhan pengguna.</td>
+                    <td>2020</td>
+                </tr>
+                  <!-- Tambahkan baris lain sesuai kebutuhan -->
+              </tbody>
+          </table>
+      </div>
+  </div>
+</div>
+
+
+        </div>
+
+    </div>
+
+    <footer class="text-center py-3 mt-5">
+        <p>&copy; 2024 Abdullah Panigoran. .</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
